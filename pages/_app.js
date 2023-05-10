@@ -5,16 +5,14 @@ import { Navbar } from '../src/components/Navbar'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div style={{ fontFamily: 'Cabin' }}>
       <Head>
         <title>Lucas Santos - Web Development</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Navbar></Navbar>
-      <div>
-        <Component {...pageProps} />
-      </div>
-    </>
+      <Component {...pageProps} />
+    </div>
   )
 }
 
