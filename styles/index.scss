@@ -1,3 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .content {
+        padding: 0rem 4rem;
+
+        .my-picture {
+            border-radius: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .primary-btn {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 @import '../node_modules/bulma/bulma.sass'
