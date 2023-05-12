@@ -3,6 +3,7 @@ import segwareLogo from '../src/assets/segware-logo.svg'
 import digitroLogo from '../src/assets/digitro-logo.svg'
 import zygoLogo from '../src/assets/zygo-logo.svg'
 import pagseguroLogo from '../src/assets/pagseguro-logo.svg'
+import qrcode from '../src/assets/qrcode.svg'
 
 export default function() {
   return (
@@ -16,24 +17,29 @@ export default function() {
           <button class="primary-btn button mt-6 has-background-black-ter is-rounded has-text-light">Contact me! - it's free ;)</button>
         </div>
       </div>
+
       <div class="second-container has-text-white-bis has-background-black-ter">
         <p class="is-size-2 has-text-centered">My Professional Experience</p>
         <div class="grid-timeline">
           <div>
-            <img class="desktop mt-5" src={segwareLogo} width={150} height={150} /> 2017 - 2017
+            <img class="mt-5" src={segwareLogo} width={150} height={150} /> 2017 - 2017
           </div>
           <div>
-            <img class="desktop mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
+            <img class="mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
           </div>
           <div>
-            <img class="desktop mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
+            <img class="mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
           </div>
           <div>
-            <img class="desktop mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
+            <img class="mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
           </div>
         </div>
       </div>
-    </div>
 
+      <div class="has-text-black container">
+        <p class="is-size-2 mb-6">Scan to know me better!</p>
+        <img style={{ height: '200px', width: '200px', display: 'block' }} src={qrcode} />
+      </div>
+    </div>
   )
 }
