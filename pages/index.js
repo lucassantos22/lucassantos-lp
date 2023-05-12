@@ -1,5 +1,8 @@
 import logo from '../src/assets/me.jpeg'
 import segwareLogo from '../src/assets/segware-logo.svg'
+import digitroLogo from '../src/assets/digitro-logo.svg'
+import zygoLogo from '../src/assets/zygo-logo.svg'
+import pagseguroLogo from '../src/assets/pagseguro-logo.svg'
 
 export default function() {
   return (
@@ -14,8 +17,11 @@ export default function() {
         </div>
       </div>
       <div class="second-container has-text-white-bis has-background-black-ter">
-        <p class="is-size-2 has-text-centered">Developing since 2018</p>
-        <img class="desktop mt-6" src={segwareLogo} width={150} height={150} />
+        <p class="is-size-2 has-text-centered">My Professional Experience</p>
+        <img class="desktop mt-5" src={segwareLogo} width={150} height={150} /> 2017 - 2017
+        <img class="desktop mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
+        <img class="desktop mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
+        <img class="desktop mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
       </div>
     </div>
 
