@@ -18,10 +18,20 @@ export default function() {
       </div>
       <div class="second-container has-text-white-bis has-background-black-ter">
         <p class="is-size-2 has-text-centered">My Professional Experience</p>
-        <img class="desktop mt-5" src={segwareLogo} width={150} height={150} /> 2017 - 2017
-        <img class="desktop mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
-        <img class="desktop mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
-        <img class="desktop mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
+        <div class="grid-timeline">
+          <div>
+            <img class="desktop mt-5" src={segwareLogo} width={150} height={150} /> 2017 - 2017
+          </div>
+          <div>
+            <img class="desktop mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
+          </div>
+          <div>
+            <img class="desktop mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
+          </div>
+          <div>
+            <img class="desktop mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
+          </div>
+        </div>
       </div>
     </div>
 
