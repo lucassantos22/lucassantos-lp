@@ -7,13 +7,32 @@
     align-items: center;
     flex-direction: column;
 
+    @media (max-width: 728px) {
+        height: 120vh;
+    }
+
+    @media (max-width: 576px) {
+        height: 125vh;
+    }
+
     .content {
         padding: 0rem 4rem;
+
+        @media (max-width: 728px) {
+            padding: 0rem 2rem;
+        }
 
         .my-picture {
             border-radius: 100%;
             margin: 0 auto;
             display: block;
+            width: 150px;
+            height: 150px;
+
+            @media (max-width: 728px) {
+                width: 100px;
+                height: 100px;
+            }
         }
 
         .primary-btn {
