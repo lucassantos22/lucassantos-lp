@@ -14,7 +14,10 @@ export const ProfessionalTimelineSection = () => (
             2017 - 2017
             </div>
             <div>
-            <img class="mt-5" src={digitroLogo} width={150} height={150} /> 2018 - 2020
+            <a href="#digitro">
+                <img class="mt-5" src={digitroLogo} width={150} height={150} />
+            </a>
+            2018 - 2020
             </div>
             <div>
             <img class="mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022

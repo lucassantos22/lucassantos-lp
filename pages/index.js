@@ -10,7 +10,7 @@ export default function() {
       <ProfessionalTimelineSection />
       <SegwareSection />
 
-        <div class="second-container has-text-white-bis has-background-black-ter">
+        <div class="second-container has-text-white-bis has-background-black-ter" id="digitro">
           <img class="center" src={digitroLogo} width={300} height={300} />
         </div>
 
