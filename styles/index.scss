@@ -88,4 +88,9 @@
     }
 }
 
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
 @import '../node_modules/bulma/bulma.sass'
