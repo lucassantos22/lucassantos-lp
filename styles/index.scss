@@ -6,6 +6,11 @@
 
 body {
     background-color: #242424;
+    p {
+        @media (max-width: 728px) {
+            text-align: center;
+        }
+    }
 }
 
 .container {
