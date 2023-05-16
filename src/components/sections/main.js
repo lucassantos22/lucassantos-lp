@@ -1,17 +1,10 @@
 import logo from '../../../src/assets/me.jpeg'
 import { Section } from '../Section'
+import { Tabs } from '../Tabs'
 
 export const MainSection = () => (
     <Section id="me">
-        <div class="tabs is-boxed is-centered">
-        <ul>
-            <li class="is-active"><a href="#me">Me</a></li>
-            <li><a href="#pro-experience">Pro Experience</a></li>
-            <li><a>Pro Projects</a></li>
-            <li><a>Personal Projects</a></li>
-            <li><a href="#qr-code">QR Code</a></li>
-        </ul>
-        </div>
+        <Tabs />
         <img class="my-picture" src={logo} />
         <p class="is-size-2 has-text-centered mt-4">Hello there, my name is <strong>Lucas</strong>!</p>
         <p class="is-size-3 has-text-centered">I'm a software engineer focused on Front-end technologies</p>
