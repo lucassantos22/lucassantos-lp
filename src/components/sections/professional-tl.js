@@ -6,7 +6,7 @@ import zygoLogo from '../../../src/assets/zygo-logo.svg'
 import pagseguroLogo from '../../../src/assets/pagseguro-logo.svg'
 
 export const ProfessionalTimelineSection = () => (
-    <Section isDark>
+    <Section isDark id="pro-experience">
         <div class="second-container">
             <p class="is-size-2 has-text-centered">My Professional Experience</p>
             <div class="grid-timeline">
