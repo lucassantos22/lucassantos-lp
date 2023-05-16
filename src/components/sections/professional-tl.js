@@ -11,22 +11,28 @@ export const ProfessionalTimelineSection = () => (
             <p class="is-size-2 has-text-centered">My Professional Experience</p>
             <div class="grid-timeline">
                 <div>
-                <a href="#segware">
-                    <img class="mt-5" src={segwareLogo} width={150} height={150} />
-                </a>
-                2017 - 2017
+                    <a href="#segware">
+                        <img class="mt-5" src={segwareLogo} width={150} height={150} />
+                    </a>
+                    2017 - 2017
                 </div>
                 <div>
-                <a href="#digitro">
-                    <img class="mt-5" src={digitroLogo} width={150} height={150} />
-                </a>
-                2018 - 2020
+                    <a href="#digitro">
+                        <img class="mt-5" src={digitroLogo} width={150} height={150} />
+                    </a>
+                    2018 - 2020
                 </div>
                 <div>
-                <img class="mt-3" src={zygoLogo} width={150} height={150} /> 2021 - 2022
+                    <a href="#zygo-pags">
+                        <img class="mt-3" src={zygoLogo} width={150} height={150} />
+                    </a>
+                    2021 - 2022
                 </div>
                 <div>
-                <img class="mt-5" src={pagseguroLogo} width={150} height={150} /> 2022 - now
+                    <a href="#zygo-pags">
+                        <img class="mt-5" src={pagseguroLogo} width={150} height={150} />
+                    </a>
+                    2022 - now
                 </div>
             </div>
         </div>

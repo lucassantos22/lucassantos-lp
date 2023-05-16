@@ -1,4 +1,4 @@
-import { MainSection, ProfessionalTimelineSection, SegwareSection, DigitroSection, QrCodeSection } from '../src/components/sections'
+import { MainSection, ProfessionalTimelineSection, SegwareSection, DigitroSection, ZygoPags, QrCodeSection } from '../src/components/sections'
 
 export default function() {
   return (
@@ -7,6 +7,7 @@ export default function() {
       <ProfessionalTimelineSection />
       <SegwareSection />
       <DigitroSection />
+      <ZygoPags />
       <QrCodeSection />
     </>
   )
