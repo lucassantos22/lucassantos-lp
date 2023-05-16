@@ -7,7 +7,7 @@ export const ZygoPags = () => (
         <div>
             <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <img src={zygoLogoDark} width={300} height={300} />
-                <img src={pagsLogoDark} width={300} height={300} />
+                <img src={pagsLogoDark} width={250} height={250} />
             </div>
             <p class="is-size-3 has-text-centered">2021 - now</p>
             <hr style={{ border: '1px solid #242424', width: '100%' }}></hr>
