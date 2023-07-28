@@ -4,7 +4,7 @@ import { Tabs } from '../Tabs'
 
 export const MainSection = () => (
     <Section id="me">
-        <Tabs />
+        {/* <Tabs /> */}
         <img class="my-picture" src={logo} />
         <p class="is-size-2 has-text-centered mt-4">Hello there, my name is <strong>Lucas</strong>!</p>
         <p class="is-size-3 has-text-centered">I'm a software engineer focused on Front-end technologies</p>
