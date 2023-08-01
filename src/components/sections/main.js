@@ -1,6 +1,5 @@
-import logo from '../../../src/assets/me.jpeg'
+import logo from '../../../src/assets/me.png'
 import { Section } from '../Section'
-import { Tabs } from '../Tabs'
 
 export const MainSection = () => (
     <Section id="me">
