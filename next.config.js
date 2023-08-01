@@ -1,5 +1,2 @@
-module.exports = {
-    images: {
-        formats: ['image/webp'],
-    },
-}
+const withImages = require('next-images');
+module.exports = withImages();
